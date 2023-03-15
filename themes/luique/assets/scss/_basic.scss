@@ -1181,7 +1181,7 @@ hr {
 .preloader .spinner-logo {
 	position: relative;
 	margin: 0 auto;
-	width: 114px;
+	width: 193.8px;
 	font-size: 0;
 }
 
@@ -1633,12 +1633,13 @@ hr {
 }
 
 .header .logo img {
-	max-width: 100%;
+	max-width: 170%;
 	height: auto;
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-o-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
+	margin-right: -80px;
 }
 
 .header .dropdown-toggle::after {

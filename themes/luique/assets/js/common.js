@@ -12,6 +12,7 @@
 /**
 	Preloader
 **/
+
 $(window).on("load", function() {
 	$('body').imagesLoaded( {}, function() {
 		var preload = $('.preloader');

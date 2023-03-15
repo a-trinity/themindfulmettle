@@ -1,0 +1,44 @@
+Yo kura code ma payo:
+
+Colors:
+font-color: #262626
+yellowish-background: #F0EBE3
+that-green: #29a587
+Aru:
+"Jost"
+https://fonts.google.com/specimen/Jost?query=jost
+
+
+handwriting wala : 
+'Caveat'
+https://fonts.google.com/specimen/Caveat?query=cav
+
+Icons fonts:
+'Font Awesome 5 Free'
+'Font Awesome 5 Brands'
+
+
+yo baki ko kura kata use bhako xa ra k ko lagi bhako xa bhujhena ::after// /* Background Colors */
+// $default_bg: #222a36;
+// $second_bg: #181e27;
+
+// /* Colors */
+// $default_color: #fff;
+// $white_color: #FFF;
+// $dark_color: #000;
+// $active_color: #ff8059;
+// $error_color: red;
+
+// /* Background Colors */
+// $light_default_bg: #f7f5f2;
+// $light_second_bg: #ebe7e0;
+
+// /* Colors */
+// $light_default_color: #1c2528;
+// $light_white_color: #FFF;
+// $light_dark_color: #000;
+// $light_active_color: #68e0cf;
+// $light_error_color: red;
+
+// $default_font: 'Rubik';
+// $extra_font: 'Sorts Mill Goudy';
