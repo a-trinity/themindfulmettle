@@ -167,7 +167,33 @@ trainers:
     - image: "images/trainers/ajay.jpg"
       name: "Ajay Kumar Yadav"
       role: "President-elect of the Rotaract Club of Kathmandu"
-      text: "Ajay Yadav is a passionate youth activist with a keen interest in civic engagement and social development. Over the past four years, he has been an active member of Rotaract, a global network of young professionals and leaders committed to making a positive impact in their communities..."
+      text: "Ajay Yadav is a passionate youth activist with a keen interest in civic engagement and social development. Over the past four years, he has been an active member of Rotaract, a global network of young professionals and leaders committed to making a positive impact in their communities. Currently, he is serving as the president-elect of the Rotaract Club of..."
+
+    - image: "images/trainers/abbal.png"
+      name: "Abbal Dhakal"
+      role: "Founder of Pi Digital Pvt. Ltd."
+      text: "Abbal Dhakal is a highly dedicated and motivated Guidance Counselor at Trinity International College, as well as the founder of Pi Digital Pvt. Ltd. With a passion for education and technology, Abbal has spent the past seven years working in the field of education and training, helping students and educators achieve their academic and career goals..."
+
+    - image: "images/trainers/testi4-2.jpg"
+      name: "Santosh Tulachan"
+      role: "International Author & Speaker / Monk"
+      text: "Mr. Tulachan is an International Author & Speaker, who's been a monk for over 10 years, a Teacher, Translator, Trainer & Founder of Melodious Dharma Sound. His books are (The light, It’s you, and Paribartanka Lagi Sakaratmak Soch). He has traveled to countries like Hongkong, Singapore, Malaysia & India to serve & share his knowledge..."
+
+    - image: "images/trainers/testi4-2.jpg"
+      name: "Saurav Bhatta"
+      role: "Writing Instructor"
+      text: "Meet Mr. Saurav Bhatta, a prodigious force in the world of education, communication, and youth development. With a Masters's in English Language & Literature from the prestigious University of Nottingham Malaysia, Saurav is a seasoned intellectual who has dedicated his life to nurturing young minds and shaping the future..."
+
+    - image: "images/trainers/testi4-2.jpg"
+      name: "Monica Khanal"
+      role: "Project Associate at CloudFactory"
+      text: "Introducing Monica, a dynamic professional with over four years of experience in project management, specializing in development and social impact initiatives. Her accomplishments in leading community-level projects, along with her tenure as a member of the Advisory Council to the U.S. Ambassador to Nepal on youth issues, make her an invaluable asset in any organization.."
+
+    - image: "images/trainers/testi4-2.jpg"
+      name: "Pragya Silwal"
+      role: "Bryn Mawr College '27"
+      text:  "..."
+      
 
 
 
