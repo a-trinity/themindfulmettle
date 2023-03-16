@@ -265,9 +265,9 @@ $(function() {
 	});
 
 	/*
-		Carousel Testimonials
+		Carousel trainers
 	*/
-	var swiperTestimonials = new Swiper('.js-testimonials', {
+	var swipertrainers = new Swiper('.js-trainers', {
     slidesPerView: 3,
 	  spaceBetween: 40,
 		watchSlidesVisibility: true,

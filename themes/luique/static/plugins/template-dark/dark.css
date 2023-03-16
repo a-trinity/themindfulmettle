@@ -453,7 +453,7 @@ body.dark-skin {
 
 .dark-skin .services-item .image,
 .dark-skin .works-item .bg-img,
-.dark-skin .testimonials-item .bg-img,
+.dark-skin .trainers-item .bg-img,
 .dark-skin .pricing-item .bg-img {
 	opacity: 0.6;
   filter: invert(1);
@@ -529,14 +529,14 @@ body.dark-skin {
 }
 
 /**
-* Section Testimonials
+* Section trainerss
 **/
 
-.dark-skin .testimonials-item {
+.dark-skin .trainers-item {
 	background: #1d222a;
 }
 
-.dark-skin .testimonials-item .icon {
+.dark-skin .trainers-item .icon {
 	background: #1d222a;
 }
 

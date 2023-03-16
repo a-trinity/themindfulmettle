@@ -1,8 +1,8 @@
-{{ with .Site.Data.home.testimonials }}
+{{ with .Site.Data.home.trainers }}
 {{ if .enable }}
 
-<!-- Section - Testimonials -->
-<section class="lui-section lui-gradient-center" id="testimonials-section">
+<!-- Section - trainers -->
+<section class="lui-section lui-gradient-center" id="trainers-section">
 
   <!-- Heading -->
   <div class="lui-heading">
@@ -20,15 +20,15 @@
     </div>
   </div>
 
-  <!-- Testimonials -->
+  <!-- trainers -->
   <div class="v-line v-line-right">
     <div class="container">
 
-      <div class="swiper-container js-testimonials scrolla-element-anim-1 scroll-animate" data-animate="active">
+      <div class="swiper-container js-trainers scrolla-element-anim-1 scroll-animate" data-animate="active">
         <div class="swiper-wrapper">
           {{ range .items }}
           <div class="swiper-slide">
-            <div class="testimonials-item">
+            <div class="trainers-item">
               <div class="image">
                 <img decoding="async" src="{{ .image | absURL }}" alt="{{ .name }}" />
 
