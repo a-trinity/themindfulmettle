@@ -9,11 +9,11 @@ hero:
   image: "images/about/profile2.png"
   image_alt: "The Mindful Mettle"
   title: "<b>Mindful</b> Mettle"
-  before_title: "Welcome to <b>The</b>,"
+  before_title: "Welcome to <b>The</b>"
   after_title: "<strong>Teen Empowerment</strong> Workshop"
   description: "Join our interactive workshop for 14-17-year-olds, focusing on personal growth, academic success, and mental well-being. Engage in activities that develop time management, stress-relief techniques, study strategies, and more, to help teens navigate high school and college challenges."
   button1:
-    label: "Register No!"
+    label: "Register Now!"
     link: "https://drive.google.com/"
   button2:
     label: "Meet the Trainers"

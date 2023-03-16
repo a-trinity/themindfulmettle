@@ -34,24 +34,24 @@ logo_alt =  "The Mindful Mettle"
 
 # Footer Settings
 [params.footer]
-copyright = "© 2023 <strong></strong>. All rights reserved"
-developer = "Developed by <strong>The Mindful Mettal Team</strong>"
+copyright = "© 2023 <strong>The Mindful Mettle</strong>. All rights reserved"
+developer = "Developed by <strong>The Mindful Mettle Team</strong>"
 
 # Social Settings
 [[params.social]]
-title = "Twitter"
-icon = "fab fa-twitter"
-url = "https://www.twitter.com/"
+title = "Facebook"
+icon = "fa-brands fa-facebook"
+url = "https://www.facebook.com/themindfulmettle"
 weight = 1
 [[params.social]]
-title = "Dribbble"
-icon = "fab fa-dribbble"
-url = "https://www.dribbble.com/"
+title = "Instagram"
+icon = "fa-brands fa-instagram"
+url = "https://www.instagram.com/themindfulmettle/"
 weight = 2
 [[params.social]]
-title = "Behance"
-icon = "fab fa-behance"
-url = "https://www.behance.net/"
+title = "Youtube"
+icon = "fa-brands fa-youtube"
+url = "https://www.youtube.com/"
 weight = 3
 
 # Portfolio Settings
