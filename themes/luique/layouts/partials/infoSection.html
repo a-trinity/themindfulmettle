@@ -1,8 +1,8 @@
-{{ with .Site.Data.home.services }}
+{{ with .Site.Data.home.info }}
 {{ if .enable }}
 
-<!-- Section - Services -->
-<section class="lui-section lui-gradient-bottom" id="services-section">
+<!-- Section - info -->
+<section class="lui-section lui-gradient-bottom" id="info-section">
 
   <!-- Heading -->
   <div class="lui-heading">
@@ -20,19 +20,19 @@
     </div>
   </div>
 
-  <!-- Services -->
+  <!-- info -->
   <div class="v-line v-line-right">
     <div class="container">
 
-      <div class="swiper-container js-services scrolla-element-anim-1 scroll-animate" data-animate="active">
+      <div class="swiper-container js-info scrolla-element-anim-1 scroll-animate" data-animate="active">
         <div class="swiper-wrapper">
           {{ range .items }}
           <div class="swiper-slide">
-            <div class="services-item">
+            <div class="info-item">
               <div class="lui-subtitle">
                 <span>{{ .subtitle | safeHTML }}</span>
               </div>
-              <div class="icon"></div>
+              <!-- <div class="icon"></div> -->
               <h5 class="lui-title">
                 <span>{{ .title | safeHTML }}</span>
               </h5>

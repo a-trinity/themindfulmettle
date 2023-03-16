@@ -230,9 +230,9 @@ $(function() {
 	});
 
 	/*
-		Carousel Services
+		Carousel info
 	*/
-  var swiperServices = new Swiper('.js-services', {
+  var swiperinfo = new Swiper('.js-info', {
     slidesPerView: 3,
 	  spaceBetween: 40,
 		watchSlidesVisibility: true,
@@ -240,7 +240,7 @@ $(function() {
 		loop: false,
 		speed: 1000,
 		pagination: {
-			el: '.js-services .swiper-pagination',
+			el: '.js-info .swiper-pagination',
 			type: 'bullets',
 			clickable: true,
 		},

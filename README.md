@@ -14,7 +14,7 @@
 
 ## Icons
 - Font awesome
-- brand.css, regular.css, fa.css
+- brand.css, regular.css, fa.css, solid.css
 
 
 ## landing page 
@@ -24,3 +24,5 @@
 - ## Hero - unchanged
 - ## Trainers <-- Testimonials
 - ## Contact Me - unchanged
+- ## Info <-- 
+    - info section link commented

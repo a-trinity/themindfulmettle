@@ -16,15 +16,25 @@ DefaultContentLanguage = "en"
   url = "#"
   weight = 1
 [[menu.main]]
+  identifier = "info"
+  name = "Info"
+  url = "#info-section"
+  weight = 2
+[[menu.main]]
   identifier = "trainers"
   name = "Trainers"
   url = "#trainers-section"
-  weight = 2
+  weight = 3
+[[menu.main]]
+  identifier = "pricing"
+  name = "Pricing"
+  url = "#pricing-section"
+  weight = 4
 [[menu.main]]
   identifier = "contact"
   name = "Contact"
   url = "#contact-section"
-  weight = 3
+  weight = 5
 
 # Main Settings
 [params]

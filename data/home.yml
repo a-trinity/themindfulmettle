@@ -8,9 +8,9 @@ hero:
   enable: 1
   image: "images/hero/hero-image.png"
   image_alt: "The Mindful Mettle"
-  title: "<b>Mindful</b> Mettle"
-  before_title: "Welcome to <b>The</b>"
-  after_title: "<strong>Teen Empowerment</strong> Workshop"
+  title: "The <b>Mindful</b> Mettle"
+  before_title: ""
+  after_title: "<strong>Teen Empowerment Workshop</strong>"
   description: "Join our interactive workshop for 14-17-year-olds, focusing on personal growth, academic success, and mental well-being. Engage in activities that develop time management, stress-relief techniques, study strategies, and more, to help teens navigate high school and college challenges."
   button1:
     label: "Register Now!"
@@ -20,49 +20,48 @@ hero:
     link: "#pricing-section"
   bg_title: "Search Begins"
   info:
-    - num: "27<strong></strong> "
-      value: "<strong>April</strong>"
+    - num: "27-28 <strong></strong> "
+      value: " <strong>April</strong>"
 
     - num: "40+"
       value: "<strong>Students</strong>"
 
-### Services [ services ]
-services:
-  enable: 0
-  title: "What I Do"
-  subtitle: "my <b>Services</b>"
-  bg_title: "Services"
+### Info [ info ]
+info:
+  enable: 1
+  title: "What is this?"
+  subtitle: "Info about the <b>Event</b>"
+  bg_title: "Info"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "The Purpose"
+      subtitle: "Why?"
+      text: "In many cultures, children are expected to be obedient and conformist, but the modern workplace and society require skills that go beyond compliance. Adults need to be adaptable, innovative, and able to think critically and creatively. To thrive in this environment with these expectations, children need to be encouraged to ask questions, challenge assumptions, and develop their own ideas. They need to learn how to work collaboratively, problem-solve, and communicate effectively, while also being resilient and adaptable in the face of change and uncertainty."
+      button_label: "Contact us"
+      button_link: "#contact-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "Event Details"
+      subtitle: "Where/When/How?"
+      text: "<ul> 
+              <li>Event Name: The Mindful Mettle</li> 
+              <li>Venue: Out-of-valley Resort(Undecided)</li> 
+              <li>Time: April 27-28, 2023</li> 
+              <li>Time: 10am(1st day) - 6pm(2nd Day) </li> 
+              <li>How to Register: By Contacting us</li>
+            </ul>"
+      button_label: "Contact us"
+      button_link: "#contact-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+    - title: "The Event"
+      subtitle: "What We Do?"
+      text: "The Mindful Mettle is a weekend program designed to help SEE Appeared Students develop important life skills and cultivate a positive mindset. Through activities and discussions, students will develop a deeper understanding of themselves and the world around them, building important skills and habits that will serve them well in all areas of life. Through a series of fun and engaging activities, students will learn Self-Awareness, Self-Reflection, Self-Care, Resilience, Time Management & Organization and Goal-Setting. The event will end when the students do a <b> Capstone Project</b>"
+      button_label: "Contact us"
+      button_link: "#contact-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
 
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
+
+
+
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
@@ -160,7 +159,7 @@ resume:
 trainers:
   enable: 1
   title: "Speakers or Performers"
-  subtitle: "Hear from <b>our Trainers</b>"
+  subtitle: "Hear about <b>our Trainers</b>"
   bg_title: "Trainers"
 
   items:
@@ -204,14 +203,18 @@ pricing:
   title: "Pricing"
   subtitle: "Contact us for <b>Financial Aid</b>"
   bg_title: "Pricing"
+  buttonTop:
+    link: "#contact-section"
 
   items:
     - name: "Regular"
       center: false
-      price: "10,000 <b>NPR</b>"
-      price_after: "2 day In Resort"
+      price: "7,500 <b>NPR</b>"
+      price_after: "In Resort"
       text: "This is our regular rate if you register before April 15. Everything will be covered by this charge but no disount is offered. Financial Aid is still considered!"
       list:
+        - value: "2 Day, 1 Night"
+          included: true
         - value: "Food"
           included: true
         - value: "Accomodation"
@@ -226,11 +229,13 @@ pricing:
 
     - name: "Early Bird"
       center: true
-      label: "Popular"
-      price: "7,500 <b>NPR</b>"
-      price_after: "2 day In Resort"
-      text: "This is our early bird rate if you register before April 3. Everything will be covered by this charge. Financial Aid is still considered!"
+      label: "Time is Ticking!"
+      price: "5,000 <b>NPR</b>"
+      price_after: "In Resort"
+      text: "This is our early bird rate if you register <b> before April 3</b>. Everything will be covered by this charge. Financial Aid is still considered!"
       list:
+        - value: "2 Day, 1 Night"
+          included: true
         - value: "Food"
           included: true
         - value: "Accomodation"
@@ -245,10 +250,12 @@ pricing:
 
     - name: "Late"
       center: false
-      price: "15,000 <b>NPR</b>"
-      price_after: "2 day In Resort"
+      price: "10,000 <b>NPR</b>"
+      price_after: "In Resort"
       text: "Everything will be covered by this charge. Additional Charges has been included due to late registration Financial Aid is still considered only if slots are remaining!"
       list:
+        - value: "2 Day, 1 Night"
+          included: true
         - value: "Food"
           included: true
         - value: "Accomodation"
@@ -279,7 +286,7 @@ blog:
 contacts:
   enable: 1
   title: "Contact Us"
-  subtitle: "Let’s <b>Talk About Ideas</b>"
+  subtitle: "Get in <b> Touch Now!</b>"
   bg_title: "Contact Us"
 
   list:

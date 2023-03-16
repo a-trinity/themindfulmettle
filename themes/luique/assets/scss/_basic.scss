@@ -23,7 +23,7 @@
 	|--Section Hero Started
 	|--Section Profile
 	|--Section Resume
-	|--Section Services
+	|--Section info
 	|--Section Works
 	|--Section Pricing
 	|--Section trainers
@@ -246,7 +246,7 @@ a.lnk:after,
 	position: relative;
 	left: 0;
 	top: 1px;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 	color: #29a587;
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -330,7 +330,7 @@ input[type="submit"] {
 	position: absolute;
 	right: 30px;
 	top: 0;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 	color: #fff;
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -2120,7 +2120,7 @@ hr {
 	text-rendering: auto;
 	font-size: 20px;
 	line-height: 22px;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -2857,49 +2857,55 @@ hr {
 
 
 /**
-* Section Services
+* Section info
 **/
+#info-section .lui-title{
+	margin-top: 20px;
+}
 
-.js-services {
+#info-section .lui-text{
+	margin: 40px 0;
+}
+.js-info {
 	text-align: center;
 }
 
-.swiper-container.js-services {
+.swiper-container.js-info {
 	overflow: visible;
 }
 
-.js-services .swiper-wrapper {
+.js-info .swiper-wrapper {
 	margin-bottom: 50px;
 	text-align: left;
 }
 
-.elementor-editor-active .js-services .swiper-wrapper .swiper-slide .services-item {
+.elementor-editor-active .js-info .swiper-wrapper .swiper-slide .info-item {
 	opacity: 1;
 }
 
-.js-services .swiper-wrapper .swiper-slide .services-item {
+.js-info .swiper-wrapper .swiper-slide .info-item {
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-webkit-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	opacity: 0;
 }
 
-.js-services .swiper-wrapper .swiper-slide-visible .services-item {
+.js-info .swiper-wrapper .swiper-slide-visible .info-item {
 	opacity: 1;
 }
 
-.services-items {
+.info-items {
 	margin-top: -40px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-.services-col {
+.info-col {
 	max-width: 270px;
 	flex: 0 0 50%;
 }
 
-.services-item {
+.info-item {
 	position: relative;
 	overflow: hidden;
 	padding: 30px 35px;
@@ -2907,11 +2913,11 @@ hr {
 	border-radius: 18px;
 }
 
-.services-item:first-child {
+.info-item:first-child {
 	margin-top: 0;
 }
 
-.services-item .icon {
+.info-item .icon {
 	margin-top: 15px;
 	font-size: 41px;
 	min-height: 50px;
@@ -2919,11 +2925,11 @@ hr {
 	color: #29a587;
 }
 
-.services-item .lui-text {
+.info-item .lui-text {
 	min-height: 175px;
 }
 
-.services-item .image,
+.info-item .image,
 .works-item .bg-img,
 .trainers-item .bg-img,
 .pricing-item .bg-img {
@@ -3101,7 +3107,7 @@ hr {
 	position: absolute;
 	top: 30px;
 	right: 30px;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 }
 
@@ -3615,7 +3621,9 @@ hr {
 /**
 * Section Contacts
 **/
-
+#contact-section{
+	padding-top: 100px;
+}
 .numbers-items {
 	position: relative;
 	z-index: 2;
@@ -4697,7 +4705,7 @@ h5.comment-box__details {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 }
 
@@ -4742,7 +4750,7 @@ h5.comment-box__details {
 	font-variant: normal;
 	text-rendering: auto;
 	line-height: 1;
-	font-family: 'Font Awesome 5 Free';
+	font-family: 'Font Awesome 6 Free';
 	font-weight: 900;
 }
 
@@ -5689,4 +5697,8 @@ a.wp-block-button__link {
 
 .content-sidebar #searchResults li:first-child {
 	margin-top: 30px;
+}
+
+a:hover{
+	text-decoration: none !important;
 }

@@ -444,14 +444,14 @@ body.dark-skin {
 }
 
 /**
-* Section Services
+* Section info
 **/
 
-.dark-skin .services-item {
+.dark-skin .info-item {
 	background: #1d222a;
 }
 
-.dark-skin .services-item .image,
+.dark-skin .info-item .image,
 .dark-skin .works-item .bg-img,
 .dark-skin .trainers-item .bg-img,
 .dark-skin .pricing-item .bg-img {
