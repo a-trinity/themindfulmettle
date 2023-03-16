@@ -15,3 +15,8 @@
 
 ## landing page 
 - data in data
+
+# Sections
+- ## Hero
+    - didn't change it from default
+- ## Trainers <-- Testimonials

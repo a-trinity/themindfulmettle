@@ -10,7 +10,11 @@ DefaultContentLanguage = "en"
 
 # Menu Settings
 [menu]
-
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
 
 
 # Main Settings

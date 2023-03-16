@@ -6,7 +6,7 @@
 ### Hero [ hero-image ]
 hero:
   enable: 1
-  image: "images/about/profile2.png"
+  image: "images/hero/hero-image.png"
   image_alt: "The Mindful Mettle"
   title: "<b>Mindful</b> Mettle"
   before_title: "Welcome to <b>The</b>"
@@ -14,11 +14,11 @@ hero:
   description: "Join our interactive workshop for 14-17-year-olds, focusing on personal growth, academic success, and mental well-being. Engage in activities that develop time management, stress-relief techniques, study strategies, and more, to help teens navigate high school and college challenges."
   button1:
     label: "Register Now!"
-    link: "https://drive.google.com/"
+    link: "#pricing-section"
   button2:
     label: "Meet the Trainers"
-    link: "#testimonials-section"
-  bg_title: "Web Developer"
+    link: "#trainers-section"
+  bg_title: "Search Begins"
   info:
     - num: "27<strong></strong> "
       value: "<strong>April</strong>"
