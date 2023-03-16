@@ -6,17 +6,21 @@
 
 ## config
 - this has the variables?
-- ### social media
+- ### Social Media
     - only brands.css used
     - in config
 - Navbar
 - google analytics
+
+## Icons
+- Font awesome
+- brand.css, regular.css, fa.css
 
 
 ## landing page 
 - data in data
 
 # Sections
-- ## Hero
-    - didn't change it from default
+- ## Hero - unchanged
 - ## Trainers <-- Testimonials
+- ## Contact Me - unchanged

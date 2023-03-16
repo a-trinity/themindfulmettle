@@ -14,7 +14,7 @@ hero:
   description: "Join our interactive workshop for 14-17-year-olds, focusing on personal growth, academic success, and mental well-being. Engage in activities that develop time management, stress-relief techniques, study strategies, and more, to help teens navigate high school and college challenges."
   button1:
     label: "Register Now!"
-    link: "#pricing-section"
+    link: "#contact-section"
   button2:
     label: "Meet the Trainers"
     link: "#trainers-section"
@@ -266,26 +266,22 @@ hero:
 #     link: "blog/"
 
 
-# ### Contact [ contacts ]
-# contacts:
-#   enable: 1
-#   title: "Contact Me"
-#   subtitle: "Let’s <b>Talk About Ideas</b>"
-#   bg_title: "Contact Me"
+### Contact [ contacts ]
+contacts:
+  enable: 1
+  title: "Contact Us"
+  subtitle: "Let’s <b>Talk About Ideas</b>"
+  bg_title: "Contact Us"
 
-#   list:
-#     - label: "Address"
-#       icon: "far fa-map"
-#       text: "North Tower, Toronto, Canada"
+  list:
+    - label: "Address"
+      icon: "far fa-map"
+      text: "Thamel, Kathmandu, Nepal"
 
-#     - label: "Freelance"
-#       icon: "far fa-user"
-#       text: "Available Right Now"
+    - label: "Email"
+      icon: "far fa-envelope"
+      text: "namaste@themindfulmettle.com"
 
-#     - label: "Email"
-#       icon: "far fa-envelope"
-#       text: "zoe.miller@mydomain.com"
-
-#     - label: "Phone"
-#       icon: "far fa-address-book"
-#       text: "+1 900 - 900 - 9000"
+    - label: "Phone"
+      icon: "far fa-address-book"
+      text: "+977 9619586724"

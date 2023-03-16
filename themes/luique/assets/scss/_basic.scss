@@ -65,6 +65,11 @@
 	color: rgba(0, 0, 0, 0.5);
 }
 
+::selection {
+	background-color:#29a587;
+	color:  #F0EBE3;
+	padding: 1rem;
+  }
 html,
 body {
 	margin: 0;
@@ -2511,7 +2516,7 @@ hr {
 	line-height: 1.2;
 	color: #FFF;
 	font-weight: 700;
-	margin: 15px 0 0 0;
+	margin: 10px 0 0 0;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 	text-shadow: 2px 2px #000, -2px 2px #000, 2px -2px #000, -2px -2px #000, 5px 5px 0px rgba(0, 0, 0, 0.2);
