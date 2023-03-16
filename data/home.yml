@@ -16,8 +16,8 @@ hero:
     label: "Register Now!"
     link: "#contact-section"
   button2:
-    label: "Meet the Trainers"
-    link: "#trainers-section"
+    label: "See our Prices"
+    link: "#pricing-section"
   bg_title: "Search Begins"
   info:
     - num: "27<strong></strong> "
@@ -200,66 +200,67 @@ trainers:
 
 ### Pricing [ pricing ]
 pricing:
-  enable: 0
+  enable: 1
   title: "Pricing"
-  subtitle: "my <b>Price Board</b>"
+  subtitle: "Contact us for <b>Financial Aid</b>"
   bg_title: "Pricing"
 
   items:
-    - name: "Hourley Basis"
+    - name: "Regular"
       center: false
-      price: "39 <b>$</b>"
-      price_after: "Hour"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      price: "10,000 <b>NPR</b>"
+      price_after: "2 day In Resort"
+      text: "This is our regular rate if you register before April 15. Everything will be covered by this charge but no disount is offered. Financial Aid is still considered!"
       list:
-        - value: "Brand Design"
+        - value: "Food"
           included: true
-        - value: "Web Development"
+        - value: "Accomodation"
           included: true
-        - value: "Advertising"
-          included: false
-        - value: "Photography"
+        - value: "Transportation"
+          included: true
+        - value: "Discount"
           included: false
       button:
-        label: "Start Project"
+        label: "Register Now!"
         link: "#contact-section"
 
-    - name: "Freelancing"
+    - name: "Early Bird"
       center: true
       label: "Popular"
-      price: "259 <b>$</b>"
-      price_after: "Week"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      price: "7,500 <b>NPR</b>"
+      price_after: "2 day In Resort"
+      text: "This is our early bird rate if you register before April 3. Everything will be covered by this charge. Financial Aid is still considered!"
       list:
-        - value: "Brand Design"
+        - value: "Food"
           included: true
-        - value: "Web Development"
+        - value: "Accomodation"
           included: true
-        - value: "Advertising"
+        - value: "Transportation"
           included: true
-        - value: "Photography"
-          included: false
+        - value: "Discount"
+          included: true
       button:
-        label: "Start Project"
+        label: "Register Now!"
         link: "#contact-section"
 
-    - name: "Full Time"
+    - name: "Late"
       center: false
-      price: "1.249 <b>$</b>"
-      price_after: "Month"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      price: "15,000 <b>NPR</b>"
+      price_after: "2 day In Resort"
+      text: "Everything will be covered by this charge. Additional Charges has been included due to late registration Financial Aid is still considered only if slots are remaining!"
       list:
-        - value: "Brand Design"
+        - value: "Food"
           included: true
-        - value: "Web Development"
+        - value: "Accomodation"
           included: true
-        - value: "Advertising"
+        - value: "Transportation"
           included: true
-        - value: "Photography"
-          included: true
+        - value: "Discount"
+          included: false
       button:
-        label: "Start Project"
+        label: "Register Now!"
         link: "#contact-section"
+
 
 
 ### Blog [ blog ]
