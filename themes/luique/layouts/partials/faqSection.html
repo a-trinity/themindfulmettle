@@ -1,0 +1,70 @@
+{{ with .Site.Data.home.faq }}
+{{ if .enable }}
+
+<!-- Section - faq -->
+<section class="lui-section lui-gradient-bottom" id="faq-section">
+
+  <!-- Heading -->
+  <div class="lui-heading">
+    <div class="container">
+
+      <div class="m-titles align-center">
+        <h2 class="m-title splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+          <span>{{ .title | safeHTML }}</span>
+        </h2>
+        <div class="m-subtitle splitting-text-anim-1 scroll-animate" data-splitting="words" data-animate="active">
+          <span>{{ .subtitle | safeHTML }}</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- History -->
+  <div class="v-line v-line-right">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+          <!-- <h5 class="history-title scrolla-element-anim-1 scroll-animate" data-animate="active">
+            <span>{{ .qna.title | safeHTML }}</span>
+          </h5> -->
+          <div class="history-items">
+            {{ range $index, $value := .qna.items }}
+            <div class="history-item lui-collapse-item{{ if not $index }} opened{{ end }} scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <h6 class="name lui-collapse-btn{{ if not $index }} active{{ end }}">
+                <span>{{ .qsn | safeHTML }}</span>
+              </h6>
+              <div class="history-content">
+                <!-- <div class="subname">
+                  <span>{{ .subname | safeHTML }}</span>
+                </div> -->
+                <!-- <div class="date lui-subtitle">
+                  <span>{{ .period | safeHTML }}</span>
+                </div> -->
+                <div class="text">
+                  <div>
+                    <p>{{ .ans | safeHTML }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+
+        </div>
+        
+      </div>
+
+      <div class="lui-bgtitle">
+        <span>{{ .bg_title }}</span>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+{{ end }}
+{{ end }}

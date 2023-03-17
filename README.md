@@ -26,3 +26,13 @@
 - ## Contact Me - unchanged
 - ## Info <-- 
     - info section link commented
+- ## schedule <-- resume
+    - nice subheading removed as no use
+- ## faq <--(copied)-- schedule
+    - layout changed
+- ## skills learned
+    - progress bar has been commented
+- to chnage that line at teh edge to right or left:
+    - <div class="v-line v-line-right"> change this line
+- Gradient patter: top -> bottom -> centre (centre was once repeated two times)
+-left info: full bio of trainers

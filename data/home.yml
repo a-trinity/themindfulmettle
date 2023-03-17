@@ -20,7 +20,7 @@ hero:
     link: "#pricing-section"
   bg_title: "Search Begins"
   info:
-    - num: "27-28 <strong></strong> "
+    - num: "28-29 <strong></strong> "
       value: " <strong>April</strong>"
 
     - num: "40+"
@@ -37,26 +37,26 @@ info:
     - title: "The Purpose"
       subtitle: "Why?"
       text: "In many cultures, children are expected to be obedient and conformist, but the modern workplace and society require skills that go beyond compliance. Adults need to be adaptable, innovative, and able to think critically and creatively. To thrive in this environment with these expectations, children need to be encouraged to ask questions, challenge assumptions, and develop their own ideas. They need to learn how to work collaboratively, problem-solve, and communicate effectively, while also being resilient and adaptable in the face of change and uncertainty."
-      button_label: "Contact us"
-      button_link: "#contact-section"
+      button_label: "See the Event Details"
+      button_link: "#schedule-section"
 
     - title: "Event Details"
       subtitle: "Where/When/How?"
       text: "<ul> 
               <li>Event Name: The Mindful Mettle</li> 
               <li>Venue: Out-of-valley Resort(Undecided)</li> 
-              <li>Time: April 27-28, 2023</li> 
-              <li>Time: 10am(1st day) - 6pm(2nd Day) </li> 
+              <li>Time: April 28-29, 2023</li> 
+              <li>Time: 12pm(1st day) - 5:30pm(2nd Day) </li> 
               <li>How to Register: By Contacting us</li>
             </ul>"
-      button_label: "Contact us"
-      button_link: "#contact-section"
+      button_label: "See the Event Details"
+      button_link: "#schedule-section"
 
     - title: "The Event"
       subtitle: "What We Do?"
       text: "The Mindful Mettle is a weekend program designed to help SEE Appeared Students develop important life skills and cultivate a positive mindset. Through activities and discussions, students will develop a deeper understanding of themselves and the world around them, building important skills and habits that will serve them well in all areas of life. Through a series of fun and engaging activities, students will learn Self-Awareness, Self-Reflection, Self-Care, Resilience, Time Management & Organization and Goal-Setting. The event will end when the students do a <b> Capstone Project</b>"
-      button_label: "Contact us"
-      button_link: "#contact-section"
+      button_label: "See the Event Details"
+      button_link: "#schedule-section"
 
 
 
@@ -74,85 +74,6 @@ portfolio:
     link: "works/"
     label: "View More"
 
-### Skills [ skills ]
-skills:
-  enable: 0
-  title: "Professional Skills"
-  subtitle: "my <b>Talent</b>"
-  bg_title: "Skills"
-
-  column1:
-    items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
-
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
-
-  column2:
-    items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
-
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
-
-  column3:
-    items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
-
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
-
-### Resume [ resume ]
-resume:
-  enable: 0
-  title: "Resume"
-  subtitle: "my <b>Story</b>"
-  bg_title: "History"
-
-  education:
-    title: "Education"
-    items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-  experience:
-    title: "Experience"
-    items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 
 ### trainers [ trainers ]
@@ -193,6 +114,144 @@ trainers:
       role: "Bryn Mawr College '27"
       text:  "..."
       
+
+### Skills they learn [ skills ]
+skills:
+  enable: 1
+  title: "What Will You Learn?"
+  subtitle: "<b>Skills</b> for you!"
+  bg_title: "Skills"
+
+  column1:
+    items:
+      - label: "Self-Awareness" #0-10 progress in dots
+        text: "Students will explore their thoughts, emotions, and values, and learn how to use this knowledge to make better decisions and build stronger relationships."
+
+      - label: "Self-Reflection" 
+        text: "Students will learn the value of self-reflection, and how to use journaling and other techniques to reflect on their experiences and grow as individuals."
+
+      - label: "Goal-Setting" 
+        text: "Students will learn how to set SMART goals and create action plans to achieve them, helping them build self-confidence and motivation."
+
+  column2:
+    items:
+      - label: "Mindfulness" 
+        text: "Students will learn techniques for practicing mindfulness, such as deep breathing and meditation, to reduce stress and improve focus."
+
+      - label: "Self-Care" 
+        text: "Students will learn the importance of self-care, such as getting enough sleep, eating well, and exercising, and how to make self-care a priority in their lives."
+
+      - label: "Capstone Project" 
+        text: "Students will be able to apply everything that they have learnt through a final individual or group project at the end of the program."
+        
+  column3:
+    items:
+      - label: "Resilience" 
+        text: "Students will learn strategies for coping with stress and adversity, and develop a growth mindset that allows them to bounce back from setbacks."
+
+      - label: "Time Management & Organization" 
+        text: "Students will learn strategies for managing their time effectively and staying organized, helping them balance schoolwork, extracurricular activities, and personal responsibilities."
+
+
+### schedule [ schedule ]
+schedule:
+  enable: 1
+  title: "Schedule of Events"
+  subtitle: "Detailed <b>Timetable</b>"
+  bg_title: "Chronology"
+
+  day1:
+    title: "Day 1"
+    items:
+      - name: "Arrival & Light Snacks"
+        period: "12:00 PM"
+        text: "Students arrive at the designated location and check-in with the program facilitators. They will have some time to settle in and get to know their peers."
+
+      - name: "Opening Ceremony"
+        period: "12:30 PM"
+        text: "The program will start with an opening ceremony to set the tone for the weekend and help students feel engaged."
+
+      - name: "Icebreaker Activities"
+        period: "1:00 PM"
+        text: "These activities will help students get to know each other and feel comfortable in the group."
+
+      - name: "Self-Awareness Workshop"
+        period: "2:00 PM"
+        text: "This workshop will teach students techniques for practicing mindfulness, such as deep breathing and meditation, to reduce stress and improve focus."
+
+      - name: "Self-Reflection Workshop"
+        period: "3:00 PM"
+        text: "This workshop will teach students the value of self-reflection, and how to use journaling and other techniques to reflect on their experiences and grow as individuals."
+
+      - name: "Snack Break"
+        period: "4:00 PM"
+        text: "Students will have a snack break to recharge and refuel."
+
+      - name: "Mindfulness Workshop"
+        period: "5:00 PM"
+        text: "Change Description"
+
+      - name: "Dinner"
+        period: "6:30 PM"
+        text: "Students will have dinner together, providing an opportunity for them to connect and build relationships."
+
+      - name: "Fun Activities"
+        period: "7:30 PM"
+        text: "After dinner, students will participate in fun activities designed to help them relax and enjoy each other's company. (90 minutes)"
+
+      - name: "Individual Reflection Time"
+        period: "9:00 PM"
+        text: "Students will have some time to reflect on their experiences from the day and prepare for the next day's activities."
+
+      - name: "Bedtime"
+        period: "10:00 PM"
+        text: "Lights out for the night."
+
+  day2:
+    title: "Day 2"
+    items:
+      - name: "Breakfast"
+        period: "7:00 AM"
+        text: "Students have breakfast together."
+
+      - name: "Self-Care Workshop"
+        period: "8:00 AM"
+        text: "This workshop will teach students the importance of self-care, such as getting enough sleep, eating well, and exercising, and how to make self-care a priority in their lives."
+
+      - name: "Resilience Workshop"
+        period: "9:00 AM"
+        text: "This workshop will teach students strategies for coping with stress and adversity, and develop a growth mindset that allows them to bounce back from setbacks."
+
+      - name: "Time Management & Organization Workshop"
+        period: "10:00 AM"
+        text: "This workshop will teach students strategies for managing their time effectively and staying organized, helping them balance schoolwork, extracurricular activities, and personal responsibilities."
+
+      - name: "Lunch"
+        period: "12:00 PM"
+        text: "Students will have lunch together, providing an opportunity for them to connect and build relationships."
+
+      - name: "Goal-Setting Workshop"
+        period: "1:00 PM"
+        text: "This workshop will teach students how to set SMART goals and create action plans to achieve them, helping them build self-confidence and motivation."
+
+      - name: "Group Discussion"
+        period: "2:00 PM"
+        text: "Students will participate in a group discussion, where they will have the opportunity to share their thoughts and experiences, and practice communication and collaboration skills."
+
+      - name: "Snack Break"
+        period: "3:00 PM"
+        text: "Students will have a snack break to recharge and refuel."
+
+      - name: "Closing Ceremony"
+        period: "5:00 PM"
+        text: "The program will end with a closing ceremony to reflect on the weekend's activities and celebrate the students' growth and progress."
+
+      - name: "Departure"
+        period: "5:30 PM"
+        text: "Students will depart from the program location, having gained new skills, insights, and relationships to help them lead balanced and fulfilling lives."
+
+    
+    
 
 
 
@@ -301,3 +360,59 @@ contacts:
     - label: "Phone"
       icon: "far fa-address-book"
       text: "+977 9619586724"
+
+
+### faq [ faq ]
+faq:
+  enable: 1
+  title: "FAQs"
+  subtitle: "Clear Your <b>Doubts</b>"
+  bg_title: "Q/A"
+
+  qna:
+    items:
+      - qsn: "What is 'The Mindful Mettle' workshop?"
+        ans: "'The Mindful Mettle' is a weekend program designed to help SEE Appeared Students develop important life skills and cultivate a positive mindset through a series of fun and engaging activities."
+
+      - qsn: "When will 'The Mindful Mettle' workshop be held?"
+        ans: "The tentative date for the workshop is between 27th April to 2nd May."
+
+      - qsn: "Is this the only program being offered?"
+        ans: "No, there will be another program for Grade 12 [SLC] Appeared students after this workshop."
+
+      - qsn: "What are the topics covered in the workshop?"
+        ans: "The workshop covers topics such as self-awareness, self-reflection, mindfulness, self-care, resilience, time management & organization, goal-setting, and a capstone project."
+
+      - qsn: "Will the topics covered in the workshop remain the same?"
+        ans: "The topics covered in the workshop are subject to change, but the aforementioned are the current discussion areas. Any changes made will be communicated to the participants before the workshop begins."
+
+      - qsn: "Who is the target audience for the workshop?"
+        ans: "SEE Appeared Students are the target audience for the workshop."
+
+      - qsn: "How long is the workshop?"
+        ans: "The workshop is a weekend program, spanning one night & two days."
+
+      - qsn: "Will accommodations be provided for the participants?"
+        ans: "Yes, accommodations will be provided for the participants."
+
+      - qsn: "Will transportation to the venue be provided for the participants?"
+        ans: "Yes, transportation to the venue will be provided for the participants."
+
+      - qsn: "What is the target fee for the program?"
+        ans: "Pricing Info is Provided above."
+
+      - qsn: "Is the fee inclusive of accommodations and transportation?"
+        ans: "Yes, the fee is inclusive of accommodations and transportation."
+
+      - qsn: "What happens if a participant cannot afford the fee?"
+        ans: "The program organizers may have financial assistance or scholarships available. Please communicate with the program facilitators to discuss any financial concerns."
+
+      - qsn: "Will there be breaks and meals provided during the workshop?"
+        ans: "Yes, there will be snack breaks and meals provided during the workshop."
+
+      - qsn: "Who are the sponsors of the program?"
+        ans: "The program organizers may have different sponsors for each workshop. Please refer to the program details or communicate with the program facilitators for more information."
+
+      - qsn: "How can one become a sponsor of the program?"
+        ans: "If you are interested in becoming a sponsor of the program, please communicate with the program facilitators for more information on sponsorship opportunities."
+       
