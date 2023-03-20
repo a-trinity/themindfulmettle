@@ -56,7 +56,7 @@ DefaultContentLanguage = "en"
 defaultSkin = "light"  # select default UI: "light" or "dark"
 dateFormat = "March 15, 2023"
 authorName = "The Mindful Mettle"
-disqusComments = "test" #YOUR DISQUS COMMENTS SHORTNAME
+disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME
 formspreeURL = "" #YOUR FORMSPREE URL
 googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
