@@ -66,7 +66,7 @@ info:
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
 portfolio:
-  enable: 0
+  enable: 1
   title: "Portfolio"
   subtitle: "my <b>Cases</b>"
   bg_title: "Portfolio"
@@ -332,7 +332,7 @@ pricing:
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
-  enable: 0
+  enable: 1
   title: "Latest Blog"
   subtitle: "my <b>Articles and Advice</b>"
   bg_title: "Blog"
