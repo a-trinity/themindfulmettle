@@ -14,10 +14,10 @@ hero:
   description: "Join our interactive workshop for 14-17-year-olds, focusing on personal growth, academic success, and mental well-being. Engage in activities that develop time management, stress-relief techniques, study strategies, and more, to help teens navigate high school and college challenges."
   button1:
     label: "Register Now!"
-    link: "#contact-section"
+    link: "https://forms.gle/UCp3Y6phhCGd4FN86"
   button2:
-    label: "See our Prices"
-    link: "#pricing-section"
+    label: "See The Event Details"
+    link: "#schedule-section"
   bg_title: "Search Begins"
   info:
     - num: "'<strong>23 </strong> "
@@ -47,7 +47,7 @@ info:
               <li>Venue: Out-of-valley Resort(Undecided)</li> 
               <li>Time: April 29-30, 2023</li> 
               <li>Time: 12pm(1st day) - 5:30pm(2nd Day) </li> 
-              <li>How to Register: By Contacting us</li>
+              <li>How to Register: Submit our Registration Form</li>
             </ul>"
       button_label: "See the Event Details"
       button_link: "#schedule-section"
@@ -284,7 +284,7 @@ pricing:
           included: false
       button:
         label: "Register Now!"
-        link: "#contact-section"
+        link: "https://forms.gle/UCp3Y6phhCGd4FN86"
 
     - name: "Early Bird"
       center: true
@@ -305,7 +305,7 @@ pricing:
           included: true
       button:
         label: "Register Now!"
-        link: "#contact-section"
+        link: "https://forms.gle/UCp3Y6phhCGd4FN86"
 
     - name: "Late"
       center: false
@@ -325,7 +325,7 @@ pricing:
           included: false
       button:
         label: "Register Now!"
-        link: "#contact-section"
+        link: "https://forms.gle/UCp3Y6phhCGd4FN86"
 
 
 

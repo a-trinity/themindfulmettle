@@ -62,10 +62,10 @@
               </div>
             </div>
             {{ if eq .center true }}
-            <a href="{{ .button.link }}" class="btn btn-solid">
+            <a href="{{ .button.link }}" class="btn btn-solid" target="_blank">
             {{ end }}
             {{ if eq .center false }}
-            <a href="{{ .button.link }}" class="btn btn-solid" style="display:none;">
+            <a href="{{ .button.link }}" class="btn btn-solid" style="display:none;" target="_blank">
             {{ end }}
               <span>{{ .button.label }}</span>
             </a>
