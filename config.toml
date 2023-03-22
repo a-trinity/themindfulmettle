@@ -41,19 +41,30 @@ DefaultContentLanguage = "en"
   url = "#pricing-section"
   weight = 6
 [[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "#blog-section"
+  weight = 7
+[[menu.main]]
+  identifier = "pages-blog"
+  parent = "blog"
+  name = "Show All Blogs"
+  url = "/blog/"
+  weight = 8
+[[menu.main]]
   identifier = "contact"
   name = "Contact"
   url = "#contact-section"
-  weight = 7
+  weight = 9
 [[menu.main]]
   identifier = "faq"
   name = "FAQs"
   url = "#faq-section"
-  weight = 8
+  weight = 10
 
 # Main Settings
 [params]
-defaultSkin = "light"  # select default UI: "light" or "dark"
+defaultSkin = "dark"  # select default UI: "light" or "dark"
 dateFormat = "March 15, 2023"
 authorName = "The Mindful Mettle"
 disqusComments = "" #YOUR DISQUS COMMENTS SHORTNAME

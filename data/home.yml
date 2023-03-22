@@ -20,11 +20,11 @@ hero:
     link: "#pricing-section"
   bg_title: "Search Begins"
   info:
-    - num: "28-29 <strong></strong> "
-      value: " <strong>April</strong>"
+    - num: "'<strong>23 </strong> "
+      value: "on April <strong>29-30</strong>"
 
-    - num: "40+"
-      value: "<strong>Students</strong>"
+    - num: "40 <strong>+</strong>"
+      value: "Young <strong>Students</strong>"
 
 ### Info [ info ]
 info:
@@ -45,7 +45,7 @@ info:
       text: "<ul> 
               <li>Event Name: The Mindful Mettle</li> 
               <li>Venue: Out-of-valley Resort(Undecided)</li> 
-              <li>Time: April 28-29, 2023</li> 
+              <li>Time: April 29-30, 2023</li> 
               <li>Time: 12pm(1st day) - 5:30pm(2nd Day) </li> 
               <li>How to Register: By Contacting us</li>
             </ul>"
@@ -333,8 +333,8 @@ pricing:
 #items generates from dir /_posts/*
 blog:
   enable: 1
-  title: "Latest Blog"
-  subtitle: "my <b>Articles and Advice</b>"
+  title: "Blogs"
+  subtitle: "our <b>Articles and Advice</b>"
   bg_title: "Blog"
   button:
     label: "View Blog"
