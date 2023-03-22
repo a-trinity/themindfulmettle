@@ -1,4 +1,4 @@
 ---
 title: Blog
-text: "All the most current news and events of my life"
+text: "All the most current blogs, articles and news"
 ---

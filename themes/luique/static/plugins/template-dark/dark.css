@@ -555,6 +555,13 @@ body.dark-skin {
 .dark-skin .blog-items .archive-item {
 	background: #1d222a;
 }
+.dark-skin .social-share .share-btn {
+	color: #eaeaea;
+}
+.dark-skin .social-share .share-btn:hover{
+	color: #29a587;
+
+}
 
 /**
 * Section Contacts

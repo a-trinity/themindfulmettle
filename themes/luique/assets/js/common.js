@@ -238,7 +238,7 @@ $(function() {
 		watchSlidesVisibility: true,
 		noSwipingSelector: 'a',
 		loop: false,
-		speed: 1000,
+		speed: 500,
 		pagination: {
 			el: '.js-info .swiper-pagination',
 			type: 'bullets',
@@ -273,7 +273,7 @@ $(function() {
 		watchSlidesVisibility: true,
 		noSwipingSelector: 'a',
 		loop: false,
-		speed: 1000,
+		speed: 500,
 		pagination: {
 			el: '.swiper-pagination',
 			type: 'bullets',
@@ -482,8 +482,8 @@ function initCursor() {
 	setInterval(move,1000/60);
 
 	function move() {
-		cursor.x = lerp (cursor.x, mouseX, 0.1);
-		cursor.y = lerp (cursor.y, mouseY, 0.1);
+		cursor.x = lerp (cursor.x, mouseX, 0.9); //cursor speed
+		cursor.y = lerp (cursor.y, mouseY, 0.9);
 		cursor.update()
 	}
 

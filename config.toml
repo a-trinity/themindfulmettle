@@ -46,21 +46,27 @@ DefaultContentLanguage = "en"
   url = "#blog-section"
   weight = 7
 [[menu.main]]
-  identifier = "pages-blog"
-  parent = "blog"
-  name = "Show All Blogs"
-  url = "/blog/"
-  weight = 8
-[[menu.main]]
   identifier = "contact"
   name = "Contact"
   url = "#contact-section"
-  weight = 9
+  weight = 8
 [[menu.main]]
   identifier = "faq"
   name = "FAQs"
   url = "#faq-section"
+  weight = 9
+
+[[menu.main]]
+  identifier = "pages"
+  name = "Pages"
+  url = "#pages"
   weight = 10
+[[menu.main]]
+  identifier = "pages-blog"
+  parent = "pages"
+  name = "Blog List"
+  url = "/blog/"
+  weight = 1
 
 # Main Settings
 [params]

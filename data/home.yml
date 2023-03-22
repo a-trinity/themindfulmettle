@@ -337,7 +337,7 @@ blog:
   subtitle: "our <b>Articles and Advice</b>"
   bg_title: "Blog"
   button:
-    label: "View Blog"
+    label: "View Blogs"
     link: "blog/"
 
 
