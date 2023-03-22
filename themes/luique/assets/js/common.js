@@ -88,7 +88,10 @@ $(function() {
 			loop: true
 		});
 	});
-
+	/**
+		Header logo
+	**/
+	
 	/**
 		Header Sticky
 	**/
