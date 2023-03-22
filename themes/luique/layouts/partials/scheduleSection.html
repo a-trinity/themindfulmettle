@@ -32,8 +32,9 @@
           </h5>
           <div class="history-items">
             {{ range $index, $value := .day1.items }}
-            <div class="history-item lui-collapse-item{{ if not $index }} opened{{ end }} scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <h6 class="name lui-collapse-btn{{ if not $index }} active{{ end }}">
+            <div class="history-item lui-collapse-item scrolla-element-anim-1 scroll-animate" data-animate="active"> 
+              <!-- {{ if not $index }} opened{{ end }} -->
+              <h6 class="name lui-collapse-btn">
                 <span>{{ .name | safeHTML }}</span>
               </h6>
               <div class="history-content">
@@ -61,8 +62,8 @@
           </h5>
           <div class="history-items">
             {{ range $index, $value := .day2.items }}
-            <div class="history-item lui-collapse-item{{ if not $index }} opened{{ end }} scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <h6 class="name lui-collapse-btn{{ if not $index }} active{{ end }}">
+            <div class="history-item lui-collapse-item scrolla-element-anim-1 scroll-animate" data-animate="active">
+              <h6 class="name lui-collapse-btn">
                 <span>{{ .name | safeHTML }}</span>
               </h6>
               <div class="history-content">
