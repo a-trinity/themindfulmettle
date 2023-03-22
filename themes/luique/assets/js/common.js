@@ -91,7 +91,51 @@ $(function() {
 	/**
 		Header logo
 	**/
-	
+	$(document).ready(function() {
+		function initiateLogo(selector){
+			var bodyClasses = $('body').attr('class');
+			var logoImg = $(selector);
+			var logoSrc,newSrc;
+			
+			// Check if body tag has the class 'light-skin'
+			if (bodyClasses.indexOf('light-skin') !== -1) {
+			// Select the element with CSS selector and get its src attribute value
+				logoSrc = logoImg.attr('src');
+				newSrc = logoSrc.replace('lightlogo', 'darklogo')
+			// Change the logo to darkLogo
+				logoImg.attr('src', newSrc);
+			}else{
+				logoSrc = logoImg.attr('src');
+				newSrc = logoSrc.replace('darklogo', 'lightlogo');
+				logoImg.attr('src', newSrc);
+			}
+		};
+		function toggleLogo(selector){
+			var logoImg = $(selector);
+			var logoSrc,newSrc;
+			
+			logoSrc = logoImg.attr('src');
+			if (logoSrc.includes('lightlogo')){
+				newSrc = logoSrc.replace('lightlogo', 'darklogo')
+			}else{
+				newSrc = logoSrc.replace('darklogo', 'lightlogo');
+			}
+			logoImg.attr('src', newSrc);
+			
+		};
+		const headerSelector = '.header .logo img';
+		const preloaderSelector =  '.preloader img';
+		initiateLogo(headerSelector);
+		initiateLogo(preloaderSelector);
+		$('.switcher-btn').click(function() {
+			toggleLogo(headerSelector);
+			toggleLogo(preloaderSelector);
+		});
+		
+
+		
+	  });
+	  
 	/**
 		Header Sticky
 	**/

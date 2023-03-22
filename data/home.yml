@@ -47,7 +47,7 @@ info:
               <li>Venue: Out-of-valley Resort(Undecided)</li> 
               <li>Time: April 29-30, 2023</li> 
               <li>Time: 12pm(1st day) - 5:30pm(2nd Day) </li> 
-              <li>How to Register: Submit our Registration Form</li>
+              <li> <a href=\"https://forms.gle/UCp3Y6phhCGd4FN86\" target=\"_blank\"> How to Register: Fill our Form</a></li>
             </ul>"
       button_label: "See the Event Details"
       button_link: "#schedule-section"

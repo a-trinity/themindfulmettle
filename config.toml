@@ -79,12 +79,12 @@ googleAnalytics = "" #YOUR GOOGLE ANALYTICS CODE
 
 # Preloader Settings
 [params.preloader]
-logo = "images/logo2.png"
+logo = "images/lightlogo.png"
 alt = "The Mindful Mettle"
 
 # Header Settings
 [params.header]
-logo = "images/logo2.png"
+logo = "images/lightlogo.png"
 logo_alt =  "The Mindful Mettle"
 
 # Footer Settings
