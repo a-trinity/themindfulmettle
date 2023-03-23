@@ -1778,8 +1778,8 @@ hr {
 	visibility: hidden;
 	opacity: 0;
 	pointer-events: none;
-	transition: all 1s cubic-bezier(0.3, 0, 0.3, 1);
-	-webkit-transition: all 1s cubic-bezier(0.3, 0, 0.3, 1);
+	transition: all .5s cubic-bezier(0.3, 0, 0.3, 1);
+	-webkit-transition: all .5s cubic-bezier(0.3, 0, 0.3, 1);
 }
 
 .menu-full-overlay:before {

@@ -216,7 +216,7 @@ $(function() {
 				$('.menu-full-overlay').removeClass('visible');
 				$('.menu-btn').removeClass('no-touch');
 				$('.menu-overlay').removeClass('no-touch');
-			}, 1000);
+			}, 400);
 		}
 		else {
 			$(this).addClass('active no-touch');
@@ -229,7 +229,7 @@ $(function() {
 				$('.menu-full-overlay').addClass('has-scroll animate-active');
 				$('.menu-btn').removeClass('no-touch');
 				$('.menu-overlay').removeClass('no-touch');
-			}, 1000);
+			}, 400);
 		}
 		return false;
 	});
@@ -245,7 +245,7 @@ $(function() {
 			$('.menu-full-overlay').removeClass('visible');
 			$('.menu-btn').removeClass('no-touch');
 			$('.menu-overlay').removeClass('no-touch');
-		}, 1000);
+		}, 400);
 		return false;
 	});
 
