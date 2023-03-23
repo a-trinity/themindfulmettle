@@ -1058,6 +1058,8 @@ hr {
 
 .hero-started .v-line-block {
 	bottom: -70px;
+	// height: 100%;
+	top:20px;
 }
 
 .v-line-block span {
@@ -1642,7 +1644,7 @@ hr {
 }
 
 .header .logo img {
-	max-width: 170%;
+	max-width: 140%;
 	height: auto;
 	transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
 	-moz-transition: all 0.3s cubic-bezier(0.3, 0, 0.3, 1);
@@ -2516,7 +2518,7 @@ hr {
 
 .section.hero-started .title {
 	font-family: "Jost";
-	font-size: 90px;
+	font-size: 70px;
 	line-height: 1.2;
 	color: #FFF;
 	font-weight: 700;
