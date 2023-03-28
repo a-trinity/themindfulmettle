@@ -3417,6 +3417,7 @@ hr {
 * Section trainers
 **/
 
+
 .js-trainers {
 	text-align: center;
 }
@@ -3462,6 +3463,9 @@ hr {
 	padding: 30px 35px;
 	background: #fff;
 	border-radius: 18px;
+	transition: all .5s ease;
+
+
 }
 
 .trainers-item .image {
@@ -3492,20 +3496,64 @@ hr {
 	height: 66px;
 	background: #fff;
 	border-radius: 0 0 18px 0;
+
 }
 
+
 .trainers-item .lui-text {
-	min-height: 110px;
+	max-height: 290px;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
+
+
 
 .trainers-item .info {
 	margin-top: 30px;
 }
+ 
 
 .trainers-item .info .name {
 	margin: 0;
 }
 
+.trainers-item .lnk{
+	margin-top: 30px;
+	color: #29a587 !important;
+}
+
+
+// Expanding the each trainer section
+.trainers-item-expanded{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 77%;
+	height: 80vh;
+	z-index: 9999;
+}
+#trainers-section{
+	position: relative;
+}
+
+#trainers-section .background{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000%;
+	height: 300vh;
+	background-color: #15191e;
+	z-index: -99;
+	opacity: 0;
+	// display: none;
+	transition: all 0.5s ease;
+}
+#trainers-section .visible{
+	z-index: 9;
+	opacity: 0.3;
+	// display: block;
+}
 
 /**
 * Section Blog

@@ -27,6 +27,7 @@
         <div class="swiper-wrapper">
           {{ range .items }}
           <div class="swiper-slide">
+            <!-- <div class="background"></div> -->
             <div class="trainers-item">
               <div class="image">
                 <img decoding="async" src="{{ .image | absURL }}" alt="{{ .name }}" />
@@ -39,9 +40,12 @@
               </div>
               <div class="text lui-text">
                 <div>
-                  <p>{{ .text | safeHTML }}</p>
+                  {{ .text | safeHTML }}
+                  
                 </div>
               </div>
+              <a class="lnk">Click for More Details</a>
+
               <div class="info">
                 <h6 class="name">
                   <span>{{ .name | safeHTML }}</span>
@@ -64,6 +68,7 @@
 
     </div>
   </div>
+
 
 </section>
 

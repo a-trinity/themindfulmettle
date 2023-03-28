@@ -311,6 +311,48 @@ $(function() {
 		}
 	});
 
+	/* 
+		popup trainers
+	*/
+	// function to create event listener for all css selectors with a class
+	// $('.trainers-item .lnk').each(function() {
+	// 	$(this).on( 'click', expandTrainer)
+
+		
+	//   });
+	
+	
+	// functio that expands the parent of the element that is clicked  
+	// function expandTrainer(event){
+		
+	// 	// go to trainers-section
+	// 	$('html, body').animate({
+	// 		scrollTop: $("#trainers-section").offset().top
+	// 	}, 300);
+	// 	// Get the parent element of the clicked element
+	// 	var parent = $(event.target).parent();
+		
+	// 	// Expand the parent element
+	// 	parent.addClass('trainers-item-expanded');
+	// 	$('#trainers-section .background').addClass('visible');
+	// 	// Close all other expanded elements
+	// 	$('.trainers-item-expanded').not(parent).removeClass('trainers-item-expanded');
+	// 	// Prevent the default action of the click event
+	// 	event.preventDefault();
+	// 	// stop scrolling
+	// 	$('body').addClass('no-scroll');
+	// 	// Close the expanded element when the background is clicked
+	// 	$('#trainers-section .background').on('click',function(){
+	// 		$(this).removeClass('visible');
+	// 		parent.removeClass('trainers-item-expanded');
+	// 		$('body').removeClass('no-scroll');
+
+	// 	});
+
+	// }
+
+	
+
 	/*
 		Carousel trainers
 	*/
